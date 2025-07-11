@@ -1,3 +1,14 @@
+/*!
+ * ToastifyLite - Lightweight Toast Notification Plugin
+ * Author: Destiny Chukuma - James Kuma (@iamkumadev)
+ * Version: 1.0.0
+ * License: MIT
+ * Repository: https://github.com/iamkumadev/toastify-lite
+ * NPM: https://www.npmjs.com/package/toastify-lite
+ * Description: A modern, dependency-free JavaScript plugin to show toast notifications. 
+ * Supports customizable messages, positions, themes, icons, and auto-dismiss logic.
+ */
+
 const Toast = (function () {
   const defaults = {
     message: '',

@@ -1,5 +1,12 @@
 # 🍞 ToastifyLite
-A lightweight, customizable, vanilla JS toast notification plugin.
+
+[![npm](https://img.shields.io/npm/v/toastify-lite.svg)](https://www.npmjs.com/package/toastify-lite)
+[![GitHub stars](https://img.shields.io/github/stars/iamkumadev/toastify-lite.svg?style=social)](https://github.com/iamkumadev/toastify-lite/stargazers)
+[![License](https://img.shields.io/github/license/iamkumadev/toastify-lite.svg)](LICENSE)
+[![Demo](https://img.shields.io/badge/demo-live-green)](https://iamkumadev.github.io/toastify-lite/)
+
+Lightweight, dependency-free JavaScript toast notification plugin.
+
 
 ## 🚀 Features
 - ✅ No dependencies (works with or without jQuery)
