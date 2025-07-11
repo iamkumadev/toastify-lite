@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ToastifyLite Demo</title>
+  <link rel="stylesheet" href="../src/toast.css">
+</head>
+<body style="padding: 2rem;">
+  <h2>ToastifyLite Demo</h2>
+  <button onclick="Toast.fire({ message: 'Success!', type: 'success' })">Success</button>
+  <button onclick="Toast.fire({ message: 'Error occurred', type: 'error', dark: true })">Error</button>
+  <button onclick="Toast.fire({ message: 'Heads up!', type: 'warning' })">Warning</button>
+  <button onclick="Toast.fire({ message: 'Info here', type: 'info', duration: 6000 })">Info</button>
+
+  <script src="../src/toast.js"></script>
+</body>
+</html>
