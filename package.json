@@ -1,0 +1,17 @@
+{
+  "name": "toastify-lite",
+  "version": "1.0.0",
+  "description": "A lightweight toast notification plugin with no dependencies.",
+  "main": "dist/toast.js",
+  "keywords": ["toast", "notification", "alert", "javascript", "vanilla", "plugin"],
+  "author": "Destiny Chukuma - James Kuma",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamkumadev/toastify-lite"
+  },
+  "bugs": {
+    "url": "https://github.com/iamkumadev/toastify-lite/issues"
+  },
+  "homepage": "https://github.com/iamkumadev/toastify-lite#readme"
+}
