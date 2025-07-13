@@ -13,5 +13,6 @@
   "bugs": {
     "url": "https://github.com/iamkumadev/toastify-lite/issues"
   },
-  "homepage": "https://github.com/iamkumadev/toastify-lite#readme"
+  "homepage": "https://github.com/iamkumadev/toastify-lite#readme",
+  "keywords": ["toast", "notification", "plugin", "javascript", "lightweight"]
 }
