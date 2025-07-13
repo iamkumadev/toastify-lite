@@ -1,17 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>ToastifyLite Demo</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ToastifyLite – Live Demo</title>
   <link rel="stylesheet" href="../src/toast.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f7f9fc;
+      margin: 0;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      color: #555;
+    }
+    .buttons {
+      margin-top: 2rem;
+    }
+    button {
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      margin: 0.5rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      color: #fff;
+    }
+    .success { background-color: #28a745; }
+    .error { background-color: #dc3545; }
+    .info { background-color: #17a2b8; }
+  </style>
 </head>
-<body style="padding: 2rem;">
-  <h2>ToastifyLite Demo</h2>
-  <button onclick="Toast.fire({ message: 'Success!', type: 'success' })">Success</button>
-  <button onclick="Toast.fire({ message: 'Error occurred', type: 'error', dark: true })">Error</button>
-  <button onclick="Toast.fire({ message: 'Heads up!', type: 'warning' })">Warning</button>
-  <button onclick="Toast.fire({ message: 'Info here', type: 'info', duration: 6000 })">Info</button>
+<body>
+
+  <h1>🔥 ToastifyLite</h1>
+  <p>Lightweight JavaScript toast notification plugin – try it below!</p>
+
+  <div class="buttons">
+    <button class="success" onclick="showToast('success')">Show Success</button>
+    <button class="error" onclick="showToast('error')">Show Error</button>
+    <button class="info" onclick="showToast('info')">Show Info</button>
+  </div>
 
   <script src="../src/toast.js"></script>
+  <script>
+    function showToast(type) {
+      Toast.fire({
+        message: `This is a ${type} toast!`,
+        type: type,
+        position: "top-right",
+        duration: 4000,
+        closable: true,
+        dark: false
+      });
+    }
+  </script>
 </body>
 </html>
