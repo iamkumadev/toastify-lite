@@ -33,6 +33,13 @@ Lightweight, dependency-free JavaScript toast notification plugin.
 <script src="https://cdn.jsdelivr.net/npm/toastify-lite@1.0.0/dist/toast.js"></script>
 ````
 
+```html
+<!-- CDN via jsDelivr -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-lite@1.0.0/dist/toast.min.css">
+<script src="https://cdn.jsdelivr.net/npm/toastify-lite@1.0.0/dist/toast.min.js"></script>
+
+````
+
 ### 📦 NPM
 
 ```bash
