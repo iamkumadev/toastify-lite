@@ -1,14 +1,12 @@
-````markdown
 # 🍞 ToastifyLite
 
-[![npm version](https://img.shields.io/npm/v/toastify-lite.svg)](https://www.npmjs.com/package/toastify-lite)
-[![GitHub stars](https://img.shields.io/github/stars/iamkumadev/toastify-lite?style=social)](https://github.com/iamkumadev/toastify-lite/stargazers)
-[![license](https://img.shields.io/github/license/iamkumadev/toastify-lite)](LICENSE)
+[![npm](https://img.shields.io/npm/v/toastify-lite.svg)](https://www.npmjs.com/package/toastify-lite)
+[![GitHub stars](https://img.shields.io/github/stars/iamkumadev/toastify-lite.svg?style=social)](https://github.com/iamkumadev/toastify-lite/stargazers)
+[![License](https://img.shields.io/github/license/iamkumadev/toastify-lite.svg)](LICENSE)
 [![Demo](https://img.shields.io/badge/demo-live-green)](https://iamkumadev.github.io/toastify-lite/)
 
-⚡ Lightweight, dependency-free toast notification plugin built with vanilla JavaScript and CSS.
+Lightweight, dependency-free JavaScript toast notification plugin.
 
----
 
 ## 🚀 Features
 
@@ -19,8 +17,6 @@
 - ✅ Closable or sticky toasts
 - ✅ Easy to customize with CSS variables or overrides
 - ✅ Works in all modern browsers
-
----
 
 ## 📦 Installation
 
@@ -42,8 +38,6 @@
 ```bash
 npm install toastify-lite
 ```
-
----
 
 ## 🛠️ Usage
 
@@ -103,11 +97,3 @@ Got feedback or want to suggest improvements?
 
 **MIT License**
 © 2024 [Destiny Chukuma – James Kuma](https://github.com/iamkumadev)
-
-```
-
----
-
-Let me know when you've added and pushed this version.  
-Then we’ll tackle the final piece: **minified dist + NPM publishing** 🚀
-```
